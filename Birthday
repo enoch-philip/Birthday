@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #e74c3c;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+    .custom-message {
+      border: 2px dashed #e67e22;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      background-color: #fff8f0;
+    }
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .photos img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Happy Birthday! 🎂</h1>
+  <p>Wishing you all the happiness, love, and success in the world!</p>
+
+  <div class="custom-message" contenteditable="true">
+    ✍️ <strong>Edit this section to write your personalized birthday message.</strong><br><br>
+    Dear [Name],<br>
+    You are an amazing person and I'm so lucky to have you in my life. May this year bring new opportunities and endless joy. 💖
+  </div>
+
+  <h2>📸 Some Memories</h2>
+  <div class="photos">
+    <!-- Replace the src with your own photo URLs -->
+    <img src="https://via.placeholder.com/200x250?text=Photo+1" alt="Birthday Photo 1">
+    <img src="https://via.placeholder.com/200x250?text=Photo+2" alt="Birthday Photo 2">
+    <img src="https://via.placeholder.com/200x250?text=Photo+3" alt="Birthday Photo 3">
+  </div>
+
+</body>
+</html>
